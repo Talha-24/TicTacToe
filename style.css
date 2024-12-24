@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #003049;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+
+
+}
+.game{
+     height: 60vmin;
+     width: 60vmin;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+#name{
+    
+    margin-bottom: 50px ;
+    color:#fc8404;
+    font-family:'arial';
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #EAE2B7;
+    color: black;
+    font-weight: 400;
+    font-size: 40px;
+
+
+   
+}
+#resetbtn{
+    padding: .8rem;
+    position: relative;
+    left: 105px;
+    bottom: 40px;
+    border: none;
+    background-color: #D62828;
+    color: white;
+    
+    text-decoration: none;
+
+}
+
+#resetbtn{
+    cursor: hover;
+}
+#startbtn{
+    padding: .8rem;
+    position: relative;
+    right: 109px;
+    top: 85px;
+    border: none;
+    background-color: #F77F00;
+    color: white;
+    
+    
+    
+
+}
+#players{
+    font-size: 1.2rem;
+    
+    color: white;
+
+}
+@media screen and (max-width: 600px) {
+    .box{
+        height: 17vmin;
+        width: 17vmin;
+        padding: 1rem;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }   
+    #resetbtn{
+        padding: .3rem;
+        font-size: 10px;
+
+        
+        position: relative;
+        left: 65px;
+        bottom: 300px;
+        border: none;
+        background-color: #D62828;
+        color: white;
+        
+        text-decoration: none;
+    
+    } 
+    #startbtn{
+        padding: .3rem;
+        position: relative;
+        right: 60px;
+        top: 85px;
+        border: none;
+        background-color: #F77F00;
+        color: white;
+        
+        
+        
+    
+    }
+    #players{
+        font-size: .8rem;
+        
+        color: white;
+    
+
+    
+}
+#name{
+    
+    margin-bottom: 70px ;
+    color:#fc8404;
+    font-family:'arial';
+    font-size: 20px;
+}
+}
